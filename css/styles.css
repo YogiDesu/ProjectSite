@@ -1,0 +1,145 @@
+body {
+	position: relative;
+}
+
+.jumbotron h1 {
+	text-align: center;
+}
+.jumbotron p {
+	text-align: center;
+}
+
+/* Carousel */
+.carousel-caption {
+	height: 60%;
+	color: orange !important;
+	font-size: 100px;
+}
+.container-fluid {
+    padding: 0px;
+}
+.carousel .item {
+    max-height: 800px; /*slider height*/
+}
+#contact .jumbotron {
+	background-image: url("../img/note.jpg");
+	color: white;
+	background-size: cover;
+}
+
+/* About */
+.anchor {
+  padding-top: 100px;
+}
+.learn-more {
+  text-align: left;
+  float: left;
+  color: white;
+}
+
+/*FAQ*/
+.modal-button {
+  float: right;
+  padding: 20px;
+}
+.modal-body {
+  height: 700px;
+}
+#modalframe {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+#faq {
+  background-image: url("../img/train.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px;
+  padding-top: 50px;
+  height: 400px;
+}
+/*Table*/
+#table table {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+#table {
+  padding-top: 20px;
+}
+#table th {
+  padding-left: 7px;
+}
+#table td {
+  padding-left: 7px;
+  padding-top: 5px;
+}
+
+/*Kinda Work*/
+.image {
+  box-sizing: border-box;
+  border: 2px solid pink;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  display: inline-block;
+  position: relative;
+}
+.info {
+  display: inline-block;
+  color: #fff;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+}
+.proj-title{
+  font-weight: 100;
+}
+
+/*work*/
+#dawork {
+  padding: 15px;
+}
+#dawork img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#workblock {
+  padding-top: 8em;
+}
+
+/*Contact*/
+form {
+  padding: 80px;
+}
+.form-control {
+  text-align: center;
+}
+.form-group {
+  text-align: center;
+}
+.form-group input {
+  text-align: center;
+}
+#share-button {
+  float: right;
+  display: inline;
+}
+#video {
+  text-align: center;
+}
+textarea {
+  padding-top: 3.2em;
+}
